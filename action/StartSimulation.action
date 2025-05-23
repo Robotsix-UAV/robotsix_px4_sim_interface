@@ -1,7 +1,12 @@
+# SPDX-License-Identifier: Apache-2.0
+
 # Goal
-string world_path
-string model_uri
+string world  # Path to world file (absolute or relative to GZ_SIM_RESOURCE_PATH)
+
+# Model information each model name must be unique
+ModelInfo[] models
 ---
 # Result
+string message
 ---
 # Feedback
