@@ -5,6 +5,9 @@ string world  # Path to world file (absolute or relative to GZ_SIM_RESOURCE_PATH
 
 # Model information each model name must be unique
 ModelInfo[] models
+
+# True to force simulation restart if already started
+bool force_restart
 ---
 # Result
 string message
