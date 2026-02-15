@@ -17,6 +17,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ModelInfo.msg"
   "action/StartSimulation.action"
   "action/StopSimulation.action"
+  "msg/MavlinkConnectionInfo.msg"
+  "action/StartSimulationMavlink.action"
 )
 
 # Install Python scripts
